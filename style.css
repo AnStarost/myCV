@@ -1,0 +1,288 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    height: 247px;
+    justify-content: center;
+}
+
+.blockName {
+    width: 300px;
+    background: black;
+    margin-right:5px;
+}
+
+.name {
+    font-family: Cabin, sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    margin: 80px 0px 0 0;
+}
+
+.profession {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: Cabin, sans-serif;
+}
+
+.blockImg {
+    background: white;
+    width: 290px;
+}
+
+.img {
+    width: 290px;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.blockContact {
+    background: black;
+    width: 260px;
+}
+
+.contact {
+    color: white;
+    list-style: none; 
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: Cabin, sans-serif;
+    margin-top: 70px;
+    margin-right:30px;
+    padding-left: 30px;
+ }
+
+ .icons_align {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #1C19AD;
+    padding-top: 10px;
+    width:215px;
+}
+
+.listPoint {
+    margin-top: 0px;
+    margin-bottom:5px;
+    padding-left:10px;
+}
+
+.Linkedin {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    height: 890px;
+    justify-content: center;
+}
+
+.blockLeft {
+    width: 300px;
+    background: white;
+    margin-right: 5px;
+}
+
+.blockRight {
+    width: 550px;
+    background: white;
+}
+
+h2 {
+    background-color: #1C19AD;
+    font-family: Cabin, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 5px;
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.skillPoints {
+    color:black;
+    font-size: 16px;
+    font-family: Cabin, sans-serif;
+    padding:0px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.skillPoint {
+    margin-bottom: 5px;
+}
+
+.textBlockLeft {
+    color:black;
+    font-size: 16px;
+    font-family: Cabin, sans-serif;
+    list-style: none;
+    padding:0px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+.certificationList {
+    list-style: none;
+    padding:0px;
+    margin-left:25px;
+}
+
+.courseName {
+    color:black;
+    font-size: 18px;
+    font-family: Cabin, sans-serif;
+    list-style: none;
+    margin-bottom:0px;
+    margin-top: 7px;
+}
+
+.courseDate {
+    color: rgba(81, 71, 71, 1);
+    font-size: 14px;
+    font-family: Cabin, sans-serif;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: Cabin, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 20px 15px 5px 30px;
+    border-bottom: 2px solid #1C19AD;
+}
+
+.profile-text {
+    font-family: Cabin, sans-serif;
+    color: black;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    margin: 10px 30px 5px 30px;
+    font-weight: 500;
+}
+
+.work-text-header {
+    font-family: Cabin, sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin:15px 25px 0px 30px;;
+}
+
+.work-text-subheader {
+    font-family: Cabin, sans-serif;
+    color: rgba(81, 71, 71, 1);
+    font-size: 14px;
+    margin:0px 25px 0px 30px;
+}
+.work-text-list {
+    font-family: Cabin, sans-serif;
+    color: black;
+    font-size: 12px;
+    margin:5px 30px 5px 33px;
+    padding: 10px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.carusel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.circle {
+    background-color: rgba(28, 25, 173, 1);
+    width:7px;
+    height:7px;
+    margin-right:5px;
+    border-radius: 10px;
+}
+
+.relative {
+    position:relative;
+}
+
+.next {
+    position:absolute;
+    top: 145px;
+}
+
+.prev {
+    position:absolute;
+    top: 145px;
+    right:15px;
+}
+
+
+/* .Slide1 {
+    display:block;
+}
+
+.Slide2 {
+    display:none;
+} */
+
+.educationList {
+    list-style: none;
+    padding:0px;
+    margin-left:30px;
+}
+
+.educationName {
+    color:black;
+    font-size: 18px;
+    font-family: Cabin, sans-serif;
+    list-style: none;
+    margin-bottom:0px;
+    margin-top: 7px;
+}
+
+.educationDate {
+    color: rgba(81, 71, 71, 1);
+    font-size: 14px;
+    font-family: Cabin, sans-serif;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+}
+
+.footerText {
+    color:white;
+    font-family: Cabin, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
